@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(AlipayProperties.Prefix)
 public class AlipayProperties {
 
-    public final static String Prefix = "spring.social.alipay";
+    protected final static String Prefix = "spring.social.alipay";
 
     private String env;
 
